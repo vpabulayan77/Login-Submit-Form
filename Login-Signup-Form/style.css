@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*parent element */
+.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        gap: 20px;
+    }
+    /*child element (inside container) */
+    .container h1 {
+        margin: 0;
+        font-size: 40px;
+    }
+    /*If the css is in form use # */
+    #loginForm {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 300px;
+    }
+
+    #loginForm input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    #loginForm button {
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
